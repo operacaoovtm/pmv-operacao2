@@ -1,0 +1,16 @@
+{
+  "name": "pmv-comms",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Modulo de comunicacao PMV <-> NovaStar VNNOX (NovaCloud Open Platform)",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pngjs": "^7.0.0"
+  }
+}
